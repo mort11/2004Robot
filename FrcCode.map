@@ -1,0 +1,1162 @@
+MPLINK 3.40, Linker
+Linker Map File - Created Sat Mar 20 12:20:12 2004
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000800    program   0x000006
+    .idata_printf_lib.o_i    romdata   0x000806    program   0x000002
+      InterruptVectorHigh       code   0x000808    program   0x000006
+                   .cinit    romdata   0x00080e    program   0x00004a
+       .code_printf_lib.o       code   0x0008e8    program   0x001042
+    .code_user_routines.o       code   0x00192a    program   0x000dc6
+  .code_autonomous_mode.o       code   0x0026f0    program   0x00080e
+      .code_ifi_library.o       code   0x002efe    program   0x000496
+    .code_ifi_utilities.o       code   0x003394    program   0x00028e
+             .stringtable    romdata   0x003622    program   0x000211
+       .romdata_adcbusy.o    romdata   0x003833    program   0x000000
+      .idata_adcclose.o_i    romdata   0x003833    program   0x000000
+      .romdata_adcclose.o    romdata   0x003833    program   0x000000
+       .idata_adcconv.o_i    romdata   0x003833    program   0x000000
+       .romdata_adcread.o    romdata   0x003833    program   0x000000
+       .romdata_adcconv.o    romdata   0x003833    program   0x000000
+      .idata_fxd0808u.o_i    romdata   0x003833    program   0x000000
+      .romdata_fxd0808u.o    romdata   0x003833    program   0x000000
+      .idata_fxd1616u.o_i    romdata   0x003833    program   0x000000
+       .idata_adcread.o_i    romdata   0x003833    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x003833    program   0x000000
+   .idata_ifi_library.o_i    romdata   0x003833    program   0x000000
+   .romdata_ifi_library.o    romdata   0x003833    program   0x000000
+       .romdata_openspi.o    romdata   0x003833    program   0x000000
+       .idata_openspi.o_i    romdata   0x003833    program   0x000000
+       .romdata_adcopen.o    romdata   0x003833    program   0x000000
+        .idata_u1open.o_i    romdata   0x003833    program   0x000000
+       .idata_adcopen.o_i    romdata   0x003833    program   0x000000
+        .romdata_u1open.o    romdata   0x003833    program   0x000000
+          .idata_MAIN.o_i    romdata   0x003833    program   0x000000
+          .romdata_MAIN.o    romdata   0x003833    program   0x000000
+.romdata_user_routines_fast.o    romdata   0x003833    program   0x000000
+ .romdata_user_routines.o    romdata   0x003833    program   0x000000
+    .romdata_printf_lib.o    romdata   0x003833    program   0x000000
+ .romdata_ifi_utilities.o    romdata   0x003833    program   0x000000
+   .idata_ifi_startup.o_i    romdata   0x003833    program   0x000000
+   .romdata_ifi_startup.o    romdata   0x003833    program   0x000000
+       .idata_adcbusy.o_i    romdata   0x003833    program   0x000000
+ .romdata_end_efffector.o    romdata   0x003833    program   0x000000
+.romdata_autonomous_mode.o    romdata   0x003833    program   0x000000
+                 UTIL_LIB       code   0x003834    program   0x00014a
+      .code_ifi_startup.o       code   0x003834    program   0x000000
+                     PROG       code   0x00397e    program   0x0000a6
+               _cinit_scn       code   0x003a24    program   0x00009e
+.code_user_routines_fast.o       code   0x003ac2    program   0x000084
+    .code_end_efffector.o       code   0x003b46    program   0x000070
+          .code_openspi.o       code   0x003bb6    program   0x00005a
+           .code_u1open.o       code   0x003c10    program   0x000058
+          .code_adcopen.o       code   0x003c68    program   0x000056
+                   STRING       code   0x003cbe    program   0x00004e
+          .code_adcread.o       code   0x003d0c    program   0x000032
+         .code_fxd1616u.o       code   0x003d3e    program   0x00002c
+             .code_MAIN.o       code   0x003d6a    program   0x000028
+             _startup_scn       code   0x003d92    program   0x000020
+              D1KTCYXCODE       code   0x003db2    program   0x000020
+         .code_fxd0808u.o       code   0x003dd2    program   0x00001c
+              D10TCYXCODE       code   0x003dee    program   0x000016
+          .code_adcbusy.o       code   0x003e04    program   0x00000a
+         .code_adcclose.o       code   0x003e0e    program   0x000006
+          .code_adcconv.o       code   0x003e14    program   0x000004
+.idata_user_routines_fast.o_i    romdata   0x003e18    program   0x00000e
+ .idata_user_routines.o_i    romdata   0x003e26    program   0x000095
+ .idata_ifi_utilities.o_i    romdata   0x003ebb    program   0x000004
+ .idata_end_efffector.o_i    romdata   0x003ebf    program   0x000004
+.idata_autonomous_mode.o_i    romdata   0x003ec3    program   0x000004
+                  .config       code   0x300000    program   0x00000e
+                  SPI_VAR      udata   0x000000       data   0x000017
+                MATH_DATA      udata   0x000017       data   0x000014
+                 .tmpdata      udata   0x00002b       data   0x000006
+                DELAYDAT1      udata   0x000031       data   0x000001
+                 COPY_VAR      udata   0x000080       data   0x000080
+            .udata_MAIN.o      udata   0x000100       data   0x000041
+      .udata_printf_lib.o      udata   0x000141       data   0x000018
+.idata_user_routines_fast.o      idata   0x000159       data   0x00000e
+     .udata_ifi_library.o      udata   0x000167       data   0x00000d
+     .udata_ifi_startup.o      udata   0x000174       data   0x00000a
+   .idata_end_efffector.o      idata   0x00017e       data   0x000004
+ .idata_autonomous_mode.o      idata   0x000182       data   0x000004
+      .idata_printf_lib.o      idata   0x000186       data   0x000002
+                   .stack      udata   0x000600       data   0x000100
+   .idata_user_routines.o      idata   0x000700       data   0x000095
+   .udata_ifi_utilities.o      udata   0x000795       data   0x000058
+   .idata_ifi_utilities.o      idata   0x0007ed       data   0x000004
+   .udata_user_routines.o      udata   0x0007f1       data   0x000002
+         .idata_adcread.o      idata   0x0007f3       data   0x000000
+         .udata_adcread.o      udata   0x0007f3       data   0x000000
+         .idata_openspi.o      idata   0x0007f3       data   0x000000
+         .udata_openspi.o      udata   0x0007f3       data   0x000000
+         .idata_adcopen.o      idata   0x0007f3       data   0x000000
+         .udata_adcopen.o      udata   0x0007f3       data   0x000000
+          .idata_u1open.o      idata   0x0007f3       data   0x000000
+          .udata_u1open.o      udata   0x0007f3       data   0x000000
+     .idata_ifi_library.o      idata   0x0007f3       data   0x000000
+        .idata_fxd1616u.o      idata   0x0007f3       data   0x000000
+        .udata_fxd1616u.o      udata   0x0007f3       data   0x000000
+        .idata_fxd0808u.o      idata   0x0007f3       data   0x000000
+        .udata_fxd0808u.o      udata   0x0007f3       data   0x000000
+         .idata_adcconv.o      idata   0x0007f3       data   0x000000
+         .udata_adcconv.o      udata   0x0007f3       data   0x000000
+        .idata_adcclose.o      idata   0x0007f3       data   0x000000
+        .udata_adcclose.o      udata   0x0007f3       data   0x000000
+            .idata_MAIN.o      idata   0x0007f3       data   0x000000
+.udata_user_routines_fast.o      udata   0x0007f3       data   0x000000
+         .idata_adcbusy.o      idata   0x0007f3       data   0x000000
+         .udata_adcbusy.o      udata   0x0007f3       data   0x000000
+     .idata_ifi_startup.o      idata   0x0007f3       data   0x000000
+   .udata_end_efffector.o      udata   0x0007f3       data   0x000000
+ .udata_autonomous_mode.o      udata   0x0007f3       data   0x000000
+            SFR_UNBANKED0      udata   0x000f6b       data   0x000095
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000800    0x000857      
+                            0x0008e8    0x003832      
+                            0x003834    0x003ec6      
+                            0x300000    0x30000d      
+            13892 out of 33816 program addresses used, program memory utilization is 41%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  Adj_lp4   0x003974    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                  Adjust4   0x003970    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+     Autonomous_mode_1or2   0x002886    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+     Autonomous_mode_3or4   0x002aaa    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+     Autonomous_mode_5or6   0x002c48    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+        Autonomous_mode_7   0x002dc8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+     Autonomous_mode_8or9   0x002df8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+                  BusyADC   0x003e04    program     extern C:\first\src\pmc\ADC\18Cxx\adcbusy.c
+       Check_4_Violations   0x003282    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+               Clear_Bank   0x00384e    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               Clear_Loop   0x00383a    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+             Clear_Memory   0x003834    program     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+       Clear_SPIdata_flag   0x0031f4    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                 CloseADC   0x003e0e    program     extern C:\first\src\pmc\ADC\18Cxx\adcclose.c
+     Compensate_joysticks   0x001bcc    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               ConvertADC   0x003e14    program     extern C:\first\src\pmc\ADC\18Cxx\adcconv.c
+                    D10_1   0x003dfe    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+                     D10x   0x003df6    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+                   D1616S   0x0039a0    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                D1616SNEG   0x0039ae    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                 D1616SOK   0x0039aa    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                  D1616SX   0x0039c0    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                    D1K_1   0x003dbe    program     static C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+                     D1Kx   0x003dbc    program     static C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+                  DA1616S   0x003990    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                      DL1   0x003930    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                      DL2   0x003946    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+          Dead_Space_Loop   0x00392c    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+              Delay10TCYx   0x003dee    program     extern C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+              Delay1KTCYx   0x003db2    program     extern C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+              DisplayBufr   0x0034b8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+             Every_second   0x0025da    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                 FXD0808U   0x003dd2    program     extern C:\first\src\math\18Cxx\fxd0808u.c
+                 FXD1616S   0x00397e    program     extern C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                 FXD1616U   0x003d3e    program     extern C:\first\src\math\18Cxx\fxd1616u.c
+                 FXM1616S   0x0039ca    program     extern C:\FIRST\SRC\MATH\18CXX\fxm1616s.asm
+            Generate_Pwms   0x003886    program     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+       Generate_Pwms_Cont   0x0038ca    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+         Get_Analog_Value   0x0035a2    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                  Getdata   0x0030f6    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+           Handle_Spi_Int   0x00309c    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+               Hex_output   0x003858    program     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+       IFI_Initialization   0x002fb8    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+     Initialize_Registers   0x002f42    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+  Initialize_Serial_Comms   0x003570    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+     InterruptHandlerHigh   0x002efe    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+      InterruptVectorHigh   0x000808    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                      LP4   0x0038ce    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont1   0x0038d8    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont2   0x0038e2    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont3   0x0038ec    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont4   0x0038f8    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont5   0x003902    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont6   0x00390c    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont7   0x003916    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont8   0x003920    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                Limit_Mix   0x00205a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+         Limit_Switch_Max   0x001fe6    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+         Limit_Switch_Min   0x00201e    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               Open1USART   0x003c10    program     extern C:\first\src\pmc\USART\18Cxx\u1open.c
+                  OpenADC   0x003c68    program     extern C:\first\src\pmc\ADC\18Cxx\adcopen.c
+                  OpenSPI   0x003bb6    program     extern C:\first\src\pmc\SPI\18Cxx\openspi.c
+          PacketNum_Check   0x0034fa    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+    Prep_SPI_4_First_Byte   0x00303e    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                PrintByte   0x00339e    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+              PrintString   0x00340c    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                PrintWord   0x0033c0    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+Process_Data_From_Local_IO   0x003ac2    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+Process_Data_From_Master_uP   0x00192a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                  Putdata   0x00316a    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                Pwm_Delay   0x00395c    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                  ReadADC   0x003d0c    program     extern C:\first\src\pmc\ADC\18Cxx\adcread.c
+    Service_end_effectors   0x003b46    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\end_efffector.c
+Set_Number_of_Analog_Channels   0x00358c    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+    Setup_PWM_Output_Type   0x0031fe    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+          Setup_Spi_Slave   0x002f2c    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+          SoftStartWheels   0x001cc8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               TSIGN1616A   0x003a16    program     static C:\FIRST\SRC\MATH\18CXX\fxm1616s.asm
+  UpdateLocalPWMDirection   0x003884    program     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+     User_Autonomous_Code   0x0026f0    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+      User_Initialization   0x0020e8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+       User_Proc_Is_Ready   0x003034    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+             Wait4TXEmpty   0x003394    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+       Write_Byte_To_Uart   0x0008e8    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+        _D10TCYXCODE_000A   0x003df8    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+        _D10TCYXCODE_000C   0x003dfa    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+        _D10TCYXCODE_000E   0x003dfc    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+        _D1KTCYXCODE_0010   0x003dc2    program     static C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x003dc8    program     static C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+       ___return_lbl00000   0x003d68    program     static                          
+       ___return_lbl00000   0x003dec    program     static                          
+       ___return_lbl00000   0x000804    program     static                          
+       ___return_lbl00000   0x00080c    program     static                          
+       ___return_lbl00001   0x003db0    program     static                          
+       ___return_lbl00002   0x003ac0    program     static                          
+               __string_0   0x003796    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_0   0x0037b9    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+               __string_0   0x003819    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_1   0x003792    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_1   0x003816    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+              __string_10   0x0037c0    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_2   0x003758    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_2   0x003813    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_3   0x00371e    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_3   0x003810    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_4   0x00380d    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_4   0x0036e5    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_5   0x0036ac    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_5   0x00380a    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_6   0x003673    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_6   0x003807    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_7   0x003638    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_7   0x003804    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_8   0x003622    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_8   0x0037ef    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_9   0x0037e0    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+                _do_cinit   0x003a24    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+                   _entry   0x000800    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+                 _startup   0x003d92    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+             check_center   0x001e8a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                copy_loop   0x003a96    program     static                          
+            copy_one_byte   0x003a9c    program     static                          
+              debug_print   0x00172a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+             debug_printb   0x0017de    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+            debug_println   0x001892    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                     done   0x003ac0    program     static                          
+             done_copying   0x003aaa    program     static                          
+                  endloop   0x003de8    program     static                          
+                  endloop   0x003d64    program     static                          
+                     jEnd   0x003cee    program     static C:\FIRST\SRC\STRING\18CXX\scpyp2r.asm
+                     jEnd   0x003d0a    program     static C:\FIRST\SRC\STRING\18CXX\strlen.asm
+                    jLoop   0x003d00    program     static C:\FIRST\SRC\STRING\18CXX\strlen.asm
+                    jLoop   0x003ce4    program     static C:\FIRST\SRC\STRING\18CXX\scpyp2r.asm
+            limit_current   0x0021c8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                     loop   0x003d48    program     static                          
+                     loop   0x003dda    program     static                          
+                     loop   0x003da2    program     static                          
+                     main   0x003d6a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\MAIN.C
+             poll_beacons   0x003b20    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+                    print   0x000dd4    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printb   0x001602    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printd   0x00153a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printf   0x00144e    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printi   0x000afa    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                  printib   0x00159c    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                  printid   0x0014d4    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                  printix   0x001664    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   prints   0x000902    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printx   0x0016ca    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+     read_selector_switch   0x001f88    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+      reset_beacon_counts   0x003b3a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+                  s_delay   0x003962    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               stop_short   0x001e76    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+            strcpypgm2ram   0x003cbe    program     extern C:\FIRST\SRC\STRING\18CXX\scpyp2r.asm
+                   strlen   0x003cf0    program     extern C:\FIRST\SRC\STRING\18CXX\strlen.asm
+                     test   0x003a3e    program     static                          
+     track_wheel_position   0x003ac8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+                   AARGB0   0x00001e       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB1   0x00001d       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB2   0x00001c       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB3   0x00001b       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB4   0x00001a       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB5   0x000019       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB6   0x000018       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB7   0x000017       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   ADCON0   0x000fc2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               ADCON0bits   0x000fc2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   ADCON1   0x000fc1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               ADCON1bits   0x000fc1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   ADCON2   0x000fc0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               ADCON2bits   0x000fc0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    ADRES   0x000fc3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   ADRESH   0x000fc4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   ADRESL   0x000fc3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     AEXP   0x00001f       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+            Accelleration   0x000702       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                   BARGB0   0x000023       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                   BARGB1   0x000022       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                   BARGB2   0x000021       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                   BARGB3   0x000020       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                     BEXP   0x000024       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                      BSR   0x000fe0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP1CON   0x000fbd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP1CONbits   0x000fbd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP2CON   0x000fba       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP2CONbits   0x000fba       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP3CON   0x000fb7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP3CONbits   0x000fb7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP4CON   0x000f73       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP4CONbits   0x000f73       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP5CON   0x000f70       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP5CONbits   0x000f70       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR1   0x000fbe       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR1H   0x000fbf       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR1L   0x000fbe       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR2   0x000fbb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR2H   0x000fbc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR2L   0x000fbb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR3   0x000fb8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR3H   0x000fb9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR3L   0x000fb8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR4   0x000f74       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR4H   0x000f75       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR4L   0x000f74       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR5   0x000f71       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR5H   0x000f72       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR5L   0x000f71       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CMCON   0x000fb4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                CMCONbits   0x000fb4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CVRCON   0x000fb5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               CVRCONbits   0x000fb5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      Cnt   0x000013       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                     Cnt1   0x000014       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+      Current_sensor_left   0x000793       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+     Current_sensor_right   0x000791       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                     DDRA   0x000f92       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRAbits   0x000f92       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRB   0x000f93       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRBbits   0x000f93       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRC   0x000f94       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRCbits   0x000f94       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRD   0x000f95       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRDbits   0x000f95       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRE   0x000f96       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDREbits   0x000f96       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRF   0x000f97       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRFbits   0x000f97       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRG   0x000f98       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRGbits   0x000f98       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRH   0x000f99       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRHbits   0x000f99       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRJ   0x000f9a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRJbits   0x000f9a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+            DelayCounter1   0x000031       data     extern C:\FIRST\SRC\DELAYS\18CXX\delayd1.asm
+                    EEADR   0x000fa9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   EEADRH   0x000faa       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   EECON1   0x000fa6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               EECON1bits   0x000fa6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   EECON2   0x000fa7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   EEDATA   0x000fa8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  FPFLAGS   0x000026       data     extern C:\FIRST\SRC\MATH\18CXX\cmath18.asm
+                     FSR0   0x000fe9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR0H   0x000fea       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR0L   0x000fe9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     FSR1   0x000fe1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR1H   0x000fe2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR1L   0x000fe1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     FSR2   0x000fd9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR2H   0x000fda       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR2L   0x000fd9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                FSRH_temp   0x000004       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                FSRL_temp   0x000005       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+              Grab_Status   0x00017e       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\end_efffector.c
+               Grab_Timer   0x000180       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\end_efffector.c
+                        I   0x00016d       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                        I   0x0007eb       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                    INDF0   0x000fef       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    INDF1   0x000fe7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    INDF2   0x000fdf       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   INTCON   0x000ff2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  INTCON2   0x000ff1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              INTCON2bits   0x000ff1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  INTCON3   0x000ff0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              INTCON3bits   0x000ff0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               INTCONbits   0x000ff2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     IPR1   0x000f9f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 IPR1bits   0x000f9f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     IPR2   0x000fa2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 IPR2bits   0x000fa2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     IPR3   0x000fa5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 IPR3bits   0x000fa5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATA   0x000f89       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATAbits   0x000f89       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATB   0x000f8a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATBbits   0x000f8a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATC   0x000f8b       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATCbits   0x000f8b       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATD   0x000f8c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATDbits   0x000f8c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATE   0x000f8d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATEbits   0x000f8d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATF   0x000f8e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATFbits   0x000f8e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATG   0x000f8f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATGbits   0x000f8f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATH   0x000f90       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATHbits   0x000f90       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATJ   0x000f91       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATJbits   0x000f91       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   LVDCON   0x000fd2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               LVDCONbits   0x000fd2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   MEMCON   0x000f9c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               MEMCONbits   0x000f9c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   OSCCON   0x000fd3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               OSCCONbits   0x000fd3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                       PC   0x000ff9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      PCL   0x000ff9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PCLATH   0x000ffa       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PCLATU   0x000ffb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIE1   0x000f9d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIE1bits   0x000f9d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIE2   0x000fa0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIE2bits   0x000fa0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIE3   0x000fa3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIE3bits   0x000fa3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIR1   0x000f9e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIR1bits   0x000f9e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIR2   0x000fa1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIR2bits   0x000fa1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIR3   0x000fa4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIR3bits   0x000fa4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PLUSW0   0x000feb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PLUSW1   0x000fe3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PLUSW2   0x000fdb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTA   0x000f80       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTAbits   0x000f80       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTB   0x000f81       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTBbits   0x000f81       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTC   0x000f82       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTCbits   0x000f82       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTD   0x000f83       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTDbits   0x000f83       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTE   0x000f84       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTEbits   0x000f84       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTF   0x000f85       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTFbits   0x000f85       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTG   0x000f86       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTGbits   0x000f86       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTH   0x000f87       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTHbits   0x000f87       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTJ   0x000f88       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTJbits   0x000f88       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               PORT_TRASH   0x000012       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                 POSTDEC0   0x000fed       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTDEC1   0x000fe5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTDEC2   0x000fdd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTINC0   0x000fee       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTINC1   0x000fe6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTINC2   0x000fde       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      PR2   0x000fcb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      PR4   0x000f77       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  PREINC0   0x000fec       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  PREINC1   0x000fe4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  PREINC2   0x000fdc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PROD   0x000ff3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PRODH   0x000ff4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PRODL   0x000ff3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PSPCON   0x000fb0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               PSPCONbits   0x000fb0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+           PWMdisableMask   0x000016       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                     RCON   0x000fd0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 RCONbits   0x000fd0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   RCREG1   0x000fae       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   RCREG2   0x000f6e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   RCSTA1   0x000fab       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               RCSTA1bits   0x000fab       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   RCSTA2   0x000f6b       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               RCSTA2bits   0x000f6b       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    REMB0   0x00001a       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                    REMB1   0x000019       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                    REMB2   0x000018       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                    REMB3   0x000017       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                     SIGN   0x000025       data     extern C:\FIRST\SRC\MATH\18CXX\cmath18.asm
+                   SPBRG1   0x000faf       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   SPBRG2   0x000f6f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   SSPADD   0x000fc8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   SSPBUF   0x000fc9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  SSPCON1   0x000fc6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              SSPCON1bits   0x000fc6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  SSPCON2   0x000fc5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              SSPCON2bits   0x000fc5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  SSPSTAT   0x000fc7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              SSPSTATbits   0x000fc7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   STATUS   0x000fd8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               STATUSbits   0x000fd8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   STKPTR   0x000ffc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               STKPTRbits   0x000ffc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T0CON   0x000fd5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T0CONbits   0x000fd5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T1CON   0x000fcd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T1CONbits   0x000fcd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T2CON   0x000fca       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T2CONbits   0x000fca       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T3CON   0x000fb1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T3CONbits   0x000fb1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T4CON   0x000f76       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T4CONbits   0x000f76       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TABLAT   0x000ff5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TBLPTR   0x000ff6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  TBLPTRH   0x000ff7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  TBLPTRL   0x000ff6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  TBLPTRU   0x000ff8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TEMP   0x00002a       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                   TEMPB0   0x00002a       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                   TEMPB1   0x000029       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                   TEMPB2   0x000028       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                   TEMPB3   0x000027       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                     TMR0   0x000fd6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR0H   0x000fd7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR0L   0x000fd6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TMR1   0x000fce       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR1H   0x000fcf       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR1L   0x000fce       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TMR2   0x000fcc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TMR3   0x000fb2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR3H   0x000fb3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR3L   0x000fb2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TMR4   0x000f78       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      TOS   0x000ffd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TOSH   0x000ffe       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TOSL   0x000ffd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TOSU   0x000fff       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISA   0x000f92       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISAbits   0x000f92       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISB   0x000f93       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISBbits   0x000f93       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISC   0x000f94       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISCbits   0x000f94       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISD   0x000f95       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISDbits   0x000f95       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISE   0x000f96       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISEbits   0x000f96       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISF   0x000f97       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISFbits   0x000f97       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISG   0x000f98       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISGbits   0x000f98       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISH   0x000f99       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISHbits   0x000f99       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISJ   0x000f9a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISJbits   0x000f9a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TXREG1   0x000fad       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TXREG2   0x000f6d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TXSTA1   0x000fac       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               TXSTA1bits   0x000fac       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TXSTA2   0x000f6c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               TXSTA2bits   0x000f6c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    Table   0x000711       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                   WDTCON   0x000fd1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               WDTCONbits   0x000fd1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     WREG   0x000fe8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  __tmp_0   0x00002b       data     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                  __tmp_0   0x00002b       data     static C:\first\src\pmc\ADC\18Cxx\adcopen.c
+                  __tmp_0   0x00002b       data     static C:\first\src\pmc\ADC\18Cxx\adcread.c
+                  __tmp_0   0x00002b       data     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                  __tmp_0   0x00002b       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+        arm_motor_counter   0x000184       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+                auto_mode   0x000182       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+                    count   0x00016e       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                curr_byte   0x000177       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+               curr_entry   0x000179       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+                 data_ptr   0x00017b       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+           dual_joysticks   0x000701       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               gPWM_DATA1   0x00000a       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA2   0x00000b       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA3   0x00000c       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA4   0x00000d       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA5   0x00000e       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA6   0x00000f       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA7   0x000010       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA8   0x000011       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                gRX_BUFF0   0x0000c0       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                gRX_BUFF1   0x0000e0       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                 gRX_PTRH   0x000002       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                 gRX_PTRL   0x000003       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                  gSPICNT   0x000006       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+             gSPI_RCV_PTR   0x000007       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+             gSPI_XMT_PTR   0x000008       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                gTX_BUFF0   0x000080       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                gTX_BUFF1   0x0000a0       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                 gTX_PTRH   0x000000       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                 gTX_PTRL   0x000001       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+      ifi_analog_channels   0x0007e8       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                ifi_count   0x0007e7       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+         ifi_last_packet1   0x0007ef       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+          ifi_packet_num1   0x0007ed       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+           ifi_printfBufr   0x000795       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                        k   0x000157       data     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+        left_beacon_count   0x000159       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+   left_sensor_count_save   0x00070b       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+    left_temp_wheel_count   0x000161       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+         left_wheel_count   0x00015d       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+          left_wheel_save   0x000705       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+        left_wheel_status   0x000165       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+                      len   0x0007e9       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+            limited_value   0x0007f1       data     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               loop_timer   0x00070f       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+              mode_switch   0x000707       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+         mode_switch_save   0x000709       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                  nullStr   0x000186       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                print_buf   0x000141       data     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                     prom   0x000174       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+                      ptr   0x0007e5       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+       right_beacon_count   0x00015b       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+  right_sensor_count_save   0x00070d       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+   right_temp_wheel_count   0x000163       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+        right_wheel_count   0x00015f       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+         right_wheel_save   0x000703       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+       right_wheel_status   0x000166       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+                    rxPtr   0x000170       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                   rxdata   0x000120       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\MAIN.C
+                rxferbufr   0x00016b       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                      scr   0x000155       data     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+               statusflag   0x000140       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\MAIN.C
+       table_compensation   0x000700       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                     temp   0x00016f       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                      tmp   0x000009       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               txPWM_MASK   0x000015       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                    txPtr   0x000172       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                   txdata   0x000100       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\MAIN.C
+                txferbufr   0x000169       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                 xferbufr   0x000167       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000800    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+       ___return_lbl00000   0x000804    program     static                          
+      InterruptVectorHigh   0x000808    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+       ___return_lbl00000   0x00080c    program     static                          
+       Write_Byte_To_Uart   0x0008e8    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   prints   0x000902    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printi   0x000afa    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                    print   0x000dd4    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printf   0x00144e    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                  printid   0x0014d4    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printd   0x00153a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                  printib   0x00159c    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printb   0x001602    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                  printix   0x001664    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                   printx   0x0016ca    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+              debug_print   0x00172a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+             debug_printb   0x0017de    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+            debug_println   0x001892    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+Process_Data_From_Master_uP   0x00192a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+     Compensate_joysticks   0x001bcc    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+          SoftStartWheels   0x001cc8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               stop_short   0x001e76    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+             check_center   0x001e8a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+     read_selector_switch   0x001f88    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+         Limit_Switch_Max   0x001fe6    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+         Limit_Switch_Min   0x00201e    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                Limit_Mix   0x00205a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+      User_Initialization   0x0020e8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+            limit_current   0x0021c8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+             Every_second   0x0025da    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+     User_Autonomous_Code   0x0026f0    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+     Autonomous_mode_1or2   0x002886    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+     Autonomous_mode_3or4   0x002aaa    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+     Autonomous_mode_5or6   0x002c48    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+        Autonomous_mode_7   0x002dc8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+     Autonomous_mode_8or9   0x002df8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+     InterruptHandlerHigh   0x002efe    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+          Setup_Spi_Slave   0x002f2c    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+     Initialize_Registers   0x002f42    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+       IFI_Initialization   0x002fb8    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+       User_Proc_Is_Ready   0x003034    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+    Prep_SPI_4_First_Byte   0x00303e    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+           Handle_Spi_Int   0x00309c    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                  Getdata   0x0030f6    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                  Putdata   0x00316a    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+       Clear_SPIdata_flag   0x0031f4    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+    Setup_PWM_Output_Type   0x0031fe    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+       Check_4_Violations   0x003282    program     extern C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+             Wait4TXEmpty   0x003394    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                PrintByte   0x00339e    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                PrintWord   0x0033c0    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+              PrintString   0x00340c    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+              DisplayBufr   0x0034b8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+          PacketNum_Check   0x0034fa    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+  Initialize_Serial_Comms   0x003570    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+Set_Number_of_Analog_Channels   0x00358c    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+         Get_Analog_Value   0x0035a2    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+               __string_8   0x003622    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_7   0x003638    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_6   0x003673    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_5   0x0036ac    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_4   0x0036e5    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_3   0x00371e    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_2   0x003758    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_1   0x003792    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_0   0x003796    program     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               __string_0   0x0037b9    program     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+              __string_10   0x0037c0    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_9   0x0037e0    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_8   0x0037ef    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_7   0x003804    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_6   0x003807    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_5   0x00380a    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_4   0x00380d    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_3   0x003810    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_2   0x003813    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_1   0x003816    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+               __string_0   0x003819    program     static C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+             Clear_Memory   0x003834    program     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               Clear_Loop   0x00383a    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               Clear_Bank   0x00384e    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               Hex_output   0x003858    program     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+  UpdateLocalPWMDirection   0x003884    program     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+            Generate_Pwms   0x003886    program     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+       Generate_Pwms_Cont   0x0038ca    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                      LP4   0x0038ce    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont1   0x0038d8    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont2   0x0038e2    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont3   0x0038ec    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont4   0x0038f8    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont5   0x003902    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont6   0x00390c    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont7   0x003916    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                LP4_Cont8   0x003920    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+          Dead_Space_Loop   0x00392c    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                      DL1   0x003930    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                      DL2   0x003946    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                Pwm_Delay   0x00395c    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                  s_delay   0x003962    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                  Adjust4   0x003970    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                  Adj_lp4   0x003974    program     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                 FXD1616S   0x00397e    program     extern C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                  DA1616S   0x003990    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                   D1616S   0x0039a0    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                 D1616SOK   0x0039aa    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                D1616SNEG   0x0039ae    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                  D1616SX   0x0039c0    program     static C:\FIRST\SRC\MATH\18CXX\fxd1616s.asm
+                 FXM1616S   0x0039ca    program     extern C:\FIRST\SRC\MATH\18CXX\fxm1616s.asm
+               TSIGN1616A   0x003a16    program     static C:\FIRST\SRC\MATH\18CXX\fxm1616s.asm
+                _do_cinit   0x003a24    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+                     test   0x003a3e    program     static                          
+                copy_loop   0x003a96    program     static                          
+            copy_one_byte   0x003a9c    program     static                          
+             done_copying   0x003aaa    program     static                          
+                     done   0x003ac0    program     static                          
+       ___return_lbl00002   0x003ac0    program     static                          
+Process_Data_From_Local_IO   0x003ac2    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+     track_wheel_position   0x003ac8    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+             poll_beacons   0x003b20    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+      reset_beacon_counts   0x003b3a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+    Service_end_effectors   0x003b46    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\end_efffector.c
+                  OpenSPI   0x003bb6    program     extern C:\first\src\pmc\SPI\18Cxx\openspi.c
+               Open1USART   0x003c10    program     extern C:\first\src\pmc\USART\18Cxx\u1open.c
+                  OpenADC   0x003c68    program     extern C:\first\src\pmc\ADC\18Cxx\adcopen.c
+            strcpypgm2ram   0x003cbe    program     extern C:\FIRST\SRC\STRING\18CXX\scpyp2r.asm
+                    jLoop   0x003ce4    program     static C:\FIRST\SRC\STRING\18CXX\scpyp2r.asm
+                     jEnd   0x003cee    program     static C:\FIRST\SRC\STRING\18CXX\scpyp2r.asm
+                   strlen   0x003cf0    program     extern C:\FIRST\SRC\STRING\18CXX\strlen.asm
+                    jLoop   0x003d00    program     static C:\FIRST\SRC\STRING\18CXX\strlen.asm
+                     jEnd   0x003d0a    program     static C:\FIRST\SRC\STRING\18CXX\strlen.asm
+                  ReadADC   0x003d0c    program     extern C:\first\src\pmc\ADC\18Cxx\adcread.c
+                 FXD1616U   0x003d3e    program     extern C:\first\src\math\18Cxx\fxd1616u.c
+                     loop   0x003d48    program     static                          
+                  endloop   0x003d64    program     static                          
+       ___return_lbl00000   0x003d68    program     static                          
+                     main   0x003d6a    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\MAIN.C
+                 _startup   0x003d92    program     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+                     loop   0x003da2    program     static                          
+       ___return_lbl00001   0x003db0    program     static                          
+              Delay1KTCYx   0x003db2    program     extern C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+                     D1Kx   0x003dbc    program     static C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+                    D1K_1   0x003dbe    program     static C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+        _D1KTCYXCODE_0010   0x003dc2    program     static C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x003dc8    program     static C:\FIRST\SRC\DELAYS\18CXX\d1ktcyx.asm
+                 FXD0808U   0x003dd2    program     extern C:\first\src\math\18Cxx\fxd0808u.c
+                     loop   0x003dda    program     static                          
+                  endloop   0x003de8    program     static                          
+       ___return_lbl00000   0x003dec    program     static                          
+              Delay10TCYx   0x003dee    program     extern C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+                     D10x   0x003df6    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+        _D10TCYXCODE_000A   0x003df8    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+        _D10TCYXCODE_000C   0x003dfa    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+        _D10TCYXCODE_000E   0x003dfc    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+                    D10_1   0x003dfe    program     static C:\FIRST\SRC\DELAYS\18CXX\d10tcyx.asm
+                  BusyADC   0x003e04    program     extern C:\first\src\pmc\ADC\18Cxx\adcbusy.c
+                 CloseADC   0x003e0e    program     extern C:\first\src\pmc\ADC\18Cxx\adcclose.c
+               ConvertADC   0x003e14    program     extern C:\first\src\pmc\ADC\18Cxx\adcconv.c
+                 gTX_PTRH   0x000000       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                 gTX_PTRL   0x000001       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                 gRX_PTRH   0x000002       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                 gRX_PTRL   0x000003       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                FSRH_temp   0x000004       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                FSRL_temp   0x000005       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                  gSPICNT   0x000006       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+             gSPI_RCV_PTR   0x000007       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+             gSPI_XMT_PTR   0x000008       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                      tmp   0x000009       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA1   0x00000a       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA2   0x00000b       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA3   0x00000c       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA4   0x00000d       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA5   0x00000e       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA6   0x00000f       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA7   0x000010       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               gPWM_DATA8   0x000011       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               PORT_TRASH   0x000012       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                      Cnt   0x000013       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                     Cnt1   0x000014       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+               txPWM_MASK   0x000015       data     static C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+           PWMdisableMask   0x000016       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                    REMB3   0x000017       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB7   0x000017       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                    REMB2   0x000018       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB6   0x000018       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                    REMB1   0x000019       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB5   0x000019       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                    REMB0   0x00001a       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB4   0x00001a       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB3   0x00001b       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB2   0x00001c       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB1   0x00001d       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   AARGB0   0x00001e       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                     AEXP   0x00001f       data     extern C:\FIRST\SRC\MATH\18CXX\aarg.asm
+                   BARGB3   0x000020       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                   BARGB2   0x000021       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                   BARGB1   0x000022       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                   BARGB0   0x000023       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                     BEXP   0x000024       data     extern C:\FIRST\SRC\MATH\18CXX\barg.asm
+                     SIGN   0x000025       data     extern C:\FIRST\SRC\MATH\18CXX\cmath18.asm
+                  FPFLAGS   0x000026       data     extern C:\FIRST\SRC\MATH\18CXX\cmath18.asm
+                   TEMPB3   0x000027       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                   TEMPB2   0x000028       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                   TEMPB1   0x000029       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                     TEMP   0x00002a       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                   TEMPB0   0x00002a       data     extern C:\FIRST\SRC\MATH\18CXX\temparg.asm
+                  __tmp_0   0x00002b       data     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                  __tmp_0   0x00002b       data     static C:\first\src\pmc\ADC\18Cxx\adcread.c
+                  __tmp_0   0x00002b       data     static C:\first\src\pmc\ADC\18Cxx\adcopen.c
+                  __tmp_0   0x00002b       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                  __tmp_0   0x00002b       data     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+            DelayCounter1   0x000031       data     extern C:\FIRST\SRC\DELAYS\18CXX\delayd1.asm
+                gTX_BUFF0   0x000080       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                gTX_BUFF1   0x0000a0       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                gRX_BUFF0   0x0000c0       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                gRX_BUFF1   0x0000e0       data     extern C:\mcc18\Projects\FrcCode\FrcCode\Util_lib.asm
+                   txdata   0x000100       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\MAIN.C
+                   rxdata   0x000120       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\MAIN.C
+               statusflag   0x000140       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\MAIN.C
+                print_buf   0x000141       data     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                      scr   0x000155       data     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+                        k   0x000157       data     static C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+        left_beacon_count   0x000159       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+       right_beacon_count   0x00015b       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+         left_wheel_count   0x00015d       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+        right_wheel_count   0x00015f       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+    left_temp_wheel_count   0x000161       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+   right_temp_wheel_count   0x000163       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+        left_wheel_status   0x000165       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+       right_wheel_status   0x000166       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines_fast.c
+                 xferbufr   0x000167       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                txferbufr   0x000169       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                rxferbufr   0x00016b       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                        I   0x00016d       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                    count   0x00016e       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                     temp   0x00016f       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                    rxPtr   0x000170       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                    txPtr   0x000172       data     static C:\mcc18\Projects\FrcCode\FrcCode\ifi_library.c
+                     prom   0x000174       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+                curr_byte   0x000177       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+               curr_entry   0x000179       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+                 data_ptr   0x00017b       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_startup.c
+              Grab_Status   0x00017e       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\end_efffector.c
+               Grab_Timer   0x000180       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\end_efffector.c
+                auto_mode   0x000182       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+        arm_motor_counter   0x000184       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\autonomous_mode.c
+                  nullStr   0x000186       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\printf_lib.c
+       table_compensation   0x000700       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+           dual_joysticks   0x000701       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+            Accelleration   0x000702       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+         right_wheel_save   0x000703       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+          left_wheel_save   0x000705       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+              mode_switch   0x000707       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+         mode_switch_save   0x000709       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+   left_sensor_count_save   0x00070b       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+  right_sensor_count_save   0x00070d       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               loop_timer   0x00070f       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+                    Table   0x000711       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+     Current_sensor_right   0x000791       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+      Current_sensor_left   0x000793       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+           ifi_printfBufr   0x000795       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                      ptr   0x0007e5       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                ifi_count   0x0007e7       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+      ifi_analog_channels   0x0007e8       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                      len   0x0007e9       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+                        I   0x0007eb       data     static C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+          ifi_packet_num1   0x0007ed       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+         ifi_last_packet1   0x0007ef       data     extern C:\MPLAB\MortCode leaves TRENTON 2004\ifi_utilities.c
+            limited_value   0x0007f1       data     static C:\MPLAB\MortCode leaves TRENTON 2004\user_routines.c
+               RCSTA2bits   0x000f6b       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   RCSTA2   0x000f6b       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TXSTA2   0x000f6c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               TXSTA2bits   0x000f6c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TXREG2   0x000f6d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   RCREG2   0x000f6e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   SPBRG2   0x000f6f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP5CON   0x000f70       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP5CONbits   0x000f70       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR5   0x000f71       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR5L   0x000f71       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR5H   0x000f72       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP4CONbits   0x000f73       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP4CON   0x000f73       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR4L   0x000f74       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR4   0x000f74       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR4H   0x000f75       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T4CON   0x000f76       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T4CONbits   0x000f76       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      PR4   0x000f77       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TMR4   0x000f78       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTA   0x000f80       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTAbits   0x000f80       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTBbits   0x000f81       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTB   0x000f81       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTC   0x000f82       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTCbits   0x000f82       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTDbits   0x000f83       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTD   0x000f83       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTE   0x000f84       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTEbits   0x000f84       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTF   0x000f85       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTFbits   0x000f85       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTG   0x000f86       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTGbits   0x000f86       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTH   0x000f87       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTHbits   0x000f87       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PORTJ   0x000f88       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                PORTJbits   0x000f88       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATA   0x000f89       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATAbits   0x000f89       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATBbits   0x000f8a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATB   0x000f8a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATC   0x000f8b       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATCbits   0x000f8b       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATD   0x000f8c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATDbits   0x000f8c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATE   0x000f8d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATEbits   0x000f8d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATF   0x000f8e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATFbits   0x000f8e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATG   0x000f8f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATGbits   0x000f8f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATH   0x000f90       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATHbits   0x000f90       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     LATJ   0x000f91       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 LATJbits   0x000f91       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRAbits   0x000f92       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRA   0x000f92       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISA   0x000f92       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISAbits   0x000f92       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRBbits   0x000f93       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRB   0x000f93       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISB   0x000f93       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISBbits   0x000f93       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISC   0x000f94       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRC   0x000f94       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISCbits   0x000f94       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRCbits   0x000f94       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISDbits   0x000f95       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISD   0x000f95       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRD   0x000f95       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRDbits   0x000f95       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISE   0x000f96       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISEbits   0x000f96       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRE   0x000f96       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDREbits   0x000f96       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISF   0x000f97       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRF   0x000f97       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRFbits   0x000f97       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISFbits   0x000f97       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISG   0x000f98       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISGbits   0x000f98       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRG   0x000f98       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRGbits   0x000f98       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRHbits   0x000f99       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISHbits   0x000f99       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISH   0x000f99       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRH   0x000f99       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TRISJ   0x000f9a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                TRISJbits   0x000f9a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 DDRJbits   0x000f9a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     DDRJ   0x000f9a       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   MEMCON   0x000f9c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               MEMCONbits   0x000f9c       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIE1   0x000f9d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIE1bits   0x000f9d       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIR1   0x000f9e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIR1bits   0x000f9e       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 IPR1bits   0x000f9f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     IPR1   0x000f9f       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIE2   0x000fa0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIE2bits   0x000fa0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIR2bits   0x000fa1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIR2   0x000fa1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     IPR2   0x000fa2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 IPR2bits   0x000fa2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIE3   0x000fa3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIE3bits   0x000fa3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PIR3   0x000fa4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 PIR3bits   0x000fa4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     IPR3   0x000fa5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 IPR3bits   0x000fa5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               EECON1bits   0x000fa6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   EECON1   0x000fa6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   EECON2   0x000fa7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   EEDATA   0x000fa8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    EEADR   0x000fa9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   EEADRH   0x000faa       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   RCSTA1   0x000fab       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               RCSTA1bits   0x000fab       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               TXSTA1bits   0x000fac       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TXSTA1   0x000fac       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TXREG1   0x000fad       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   RCREG1   0x000fae       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   SPBRG1   0x000faf       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PSPCON   0x000fb0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               PSPCONbits   0x000fb0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T3CONbits   0x000fb1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T3CON   0x000fb1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TMR3   0x000fb2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR3L   0x000fb2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR3H   0x000fb3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                CMCONbits   0x000fb4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CMCON   0x000fb4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               CVRCONbits   0x000fb5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CVRCON   0x000fb5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP3CON   0x000fb7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP3CONbits   0x000fb7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR3   0x000fb8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR3L   0x000fb8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR3H   0x000fb9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP2CONbits   0x000fba       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP2CON   0x000fba       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR2L   0x000fbb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR2   0x000fbb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR2H   0x000fbc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              CCP1CONbits   0x000fbd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  CCP1CON   0x000fbd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    CCPR1   0x000fbe       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR1L   0x000fbe       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   CCPR1H   0x000fbf       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   ADCON2   0x000fc0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               ADCON2bits   0x000fc0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   ADCON1   0x000fc1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               ADCON1bits   0x000fc1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   ADCON0   0x000fc2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               ADCON0bits   0x000fc2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   ADRESL   0x000fc3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    ADRES   0x000fc3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   ADRESH   0x000fc4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  SSPCON2   0x000fc5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              SSPCON2bits   0x000fc5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  SSPCON1   0x000fc6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              SSPCON1bits   0x000fc6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              SSPSTATbits   0x000fc7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  SSPSTAT   0x000fc7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   SSPADD   0x000fc8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   SSPBUF   0x000fc9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T2CON   0x000fca       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T2CONbits   0x000fca       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      PR2   0x000fcb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TMR2   0x000fcc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T1CON   0x000fcd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T1CONbits   0x000fcd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TMR1   0x000fce       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR1L   0x000fce       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR1H   0x000fcf       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 RCONbits   0x000fd0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     RCON   0x000fd0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               WDTCONbits   0x000fd1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   WDTCON   0x000fd1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   LVDCON   0x000fd2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               LVDCONbits   0x000fd2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   OSCCON   0x000fd3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               OSCCONbits   0x000fd3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                T0CONbits   0x000fd5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    T0CON   0x000fd5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TMR0   0x000fd6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR0L   0x000fd6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    TMR0H   0x000fd7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   STATUS   0x000fd8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               STATUSbits   0x000fd8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     FSR2   0x000fd9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR2L   0x000fd9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR2H   0x000fda       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PLUSW2   0x000fdb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  PREINC2   0x000fdc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTDEC2   0x000fdd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTINC2   0x000fde       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    INDF2   0x000fdf       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      BSR   0x000fe0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR1L   0x000fe1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     FSR1   0x000fe1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR1H   0x000fe2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PLUSW1   0x000fe3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  PREINC1   0x000fe4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTDEC1   0x000fe5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTINC1   0x000fe6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    INDF1   0x000fe7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     WREG   0x000fe8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR0L   0x000fe9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     FSR0   0x000fe9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    FSR0H   0x000fea       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PLUSW0   0x000feb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  PREINC0   0x000fec       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTDEC0   0x000fed       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                 POSTINC0   0x000fee       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    INDF0   0x000fef       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              INTCON3bits   0x000ff0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  INTCON3   0x000ff0       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  INTCON2   0x000ff1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+              INTCON2bits   0x000ff1       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   INTCON   0x000ff2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               INTCONbits   0x000ff2       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PRODL   0x000ff3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     PROD   0x000ff3       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                    PRODH   0x000ff4       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TABLAT   0x000ff5       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  TBLPTRL   0x000ff6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   TBLPTR   0x000ff6       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  TBLPTRH   0x000ff7       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                  TBLPTRU   0x000ff8       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                       PC   0x000ff9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      PCL   0x000ff9       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PCLATH   0x000ffa       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   PCLATU   0x000ffb       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+               STKPTRbits   0x000ffc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                   STKPTR   0x000ffc       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                      TOS   0x000ffd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TOSL   0x000ffd       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TOSH   0x000ffe       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+                     TOSU   0x000fff       data     extern C:\FIRST\SRC\PROC\p18f8520.asm
+
+
